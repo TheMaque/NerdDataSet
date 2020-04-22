@@ -78,7 +78,6 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.SystemColors.Desktop;
 			this.ClientSize = new System.Drawing.Size(852, 569);
 			this.Controls.Add(this.dgvInformation);
 			this.Controls.Add(this.pnlMain);
