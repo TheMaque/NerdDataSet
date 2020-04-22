@@ -15,7 +15,7 @@ using System.Data.SQLite;
 /* Name: Reggie Telemaque
 * Date: 4/20/2020
 * 
-* Program: Nerd DataSet: Data Viewer
+* Program: Final - Nerd DataSet: Data Viewer
 * 
 * Purpose: A program that allows a user to view data in a datatable that was accessed by way of a dataset. 
 * 

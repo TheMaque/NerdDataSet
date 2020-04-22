@@ -95,6 +95,7 @@
 			// lblSetID
 			// 
 			this.lblSetID.AutoSize = true;
+			this.lblSetID.BackColor = System.Drawing.Color.Transparent;
 			this.lblSetID.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblSetID.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblSetID.Location = new System.Drawing.Point(115, 86);
@@ -106,6 +107,7 @@
 			// lblNumber
 			// 
 			this.lblNumber.AutoSize = true;
+			this.lblNumber.BackColor = System.Drawing.Color.Transparent;
 			this.lblNumber.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblNumber.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblNumber.Location = new System.Drawing.Point(220, 86);
@@ -117,6 +119,7 @@
 			// lblVariant
 			// 
 			this.lblVariant.AutoSize = true;
+			this.lblVariant.BackColor = System.Drawing.Color.Transparent;
 			this.lblVariant.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblVariant.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblVariant.Location = new System.Drawing.Point(324, 86);
@@ -152,6 +155,7 @@
 			// lblTheme
 			// 
 			this.lblTheme.AutoSize = true;
+			this.lblTheme.BackColor = System.Drawing.Color.Transparent;
 			this.lblTheme.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblTheme.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblTheme.Location = new System.Drawing.Point(32, 145);
@@ -163,6 +167,7 @@
 			// lblName
 			// 
 			this.lblName.AutoSize = true;
+			this.lblName.BackColor = System.Drawing.Color.Transparent;
 			this.lblName.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblName.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblName.Location = new System.Drawing.Point(33, 171);
@@ -174,6 +179,7 @@
 			// lblSubTheme
 			// 
 			this.lblSubTheme.AutoSize = true;
+			this.lblSubTheme.BackColor = System.Drawing.Color.Transparent;
 			this.lblSubTheme.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblSubTheme.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblSubTheme.Location = new System.Drawing.Point(185, 145);
@@ -185,6 +191,7 @@
 			// lblYear
 			// 
 			this.lblYear.AutoSize = true;
+			this.lblYear.BackColor = System.Drawing.Color.Transparent;
 			this.lblYear.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblYear.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblYear.Location = new System.Drawing.Point(430, 86);
@@ -204,6 +211,7 @@
 			// lblMiniFigs
 			// 
 			this.lblMiniFigs.AutoSize = true;
+			this.lblMiniFigs.BackColor = System.Drawing.Color.Transparent;
 			this.lblMiniFigs.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblMiniFigs.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblMiniFigs.Location = new System.Drawing.Point(36, 199);
@@ -223,6 +231,7 @@
 			// lblPieces
 			// 
 			this.lblPieces.AutoSize = true;
+			this.lblPieces.BackColor = System.Drawing.Color.Transparent;
 			this.lblPieces.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblPieces.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblPieces.Location = new System.Drawing.Point(253, 199);
@@ -242,6 +251,7 @@
 			// lblEUPrice
 			// 
 			this.lblEUPrice.AutoSize = true;
+			this.lblEUPrice.BackColor = System.Drawing.Color.Transparent;
 			this.lblEUPrice.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblEUPrice.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblEUPrice.Location = new System.Drawing.Point(430, 223);
@@ -262,6 +272,7 @@
 			// lblCAPrice
 			// 
 			this.lblCAPrice.AutoSize = true;
+			this.lblCAPrice.BackColor = System.Drawing.Color.Transparent;
 			this.lblCAPrice.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblCAPrice.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblCAPrice.Location = new System.Drawing.Point(324, 225);
@@ -273,6 +284,7 @@
 			// lblUSPrice
 			// 
 			this.lblUSPrice.AutoSize = true;
+			this.lblUSPrice.BackColor = System.Drawing.Color.Transparent;
 			this.lblUSPrice.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblUSPrice.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblUSPrice.Location = new System.Drawing.Point(202, 225);
@@ -284,6 +296,7 @@
 			// lblUKPrice
 			// 
 			this.lblUKPrice.AutoSize = true;
+			this.lblUKPrice.BackColor = System.Drawing.Color.Transparent;
 			this.lblUKPrice.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblUKPrice.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblUKPrice.Location = new System.Drawing.Point(84, 223);
@@ -322,6 +335,7 @@
 			// lblPrice
 			// 
 			this.lblPrice.AutoSize = true;
+			this.lblPrice.BackColor = System.Drawing.Color.Transparent;
 			this.lblPrice.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblPrice.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblPrice.Location = new System.Drawing.Point(36, 244);
@@ -333,6 +347,7 @@
 			// chkOwned
 			// 
 			this.chkOwned.AutoSize = true;
+			this.chkOwned.BackColor = System.Drawing.Color.Transparent;
 			this.chkOwned.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.chkOwned.ForeColor = System.Drawing.SystemColors.Window;
 			this.chkOwned.Location = new System.Drawing.Point(151, 289);
@@ -340,11 +355,12 @@
 			this.chkOwned.Size = new System.Drawing.Size(65, 20);
 			this.chkOwned.TabIndex = 28;
 			this.chkOwned.Text = "Owned";
-			this.chkOwned.UseVisualStyleBackColor = true;
+			this.chkOwned.UseVisualStyleBackColor = false;
 			// 
 			// chkWanted
 			// 
 			this.chkWanted.AutoSize = true;
+			this.chkWanted.BackColor = System.Drawing.Color.Transparent;
 			this.chkWanted.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.chkWanted.ForeColor = System.Drawing.SystemColors.Window;
 			this.chkWanted.Location = new System.Drawing.Point(224, 289);
@@ -352,11 +368,12 @@
 			this.chkWanted.Size = new System.Drawing.Size(70, 20);
 			this.chkWanted.TabIndex = 29;
 			this.chkWanted.Text = "Wanted";
-			this.chkWanted.UseVisualStyleBackColor = true;
+			this.chkWanted.UseVisualStyleBackColor = false;
 			// 
 			// lblQtyOwned
 			// 
 			this.lblQtyOwned.AutoSize = true;
+			this.lblQtyOwned.BackColor = System.Drawing.Color.Transparent;
 			this.lblQtyOwned.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblQtyOwned.ForeColor = System.Drawing.SystemColors.Window;
 			this.lblQtyOwned.Location = new System.Drawing.Point(299, 290);
