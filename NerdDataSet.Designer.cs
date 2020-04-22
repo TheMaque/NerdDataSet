@@ -38,7 +38,7 @@
 			// 
 			// pnlMain
 			// 
-			this.pnlMain.BackColor = System.Drawing.SystemColors.ControlDark;
+			this.pnlMain.BackColor = System.Drawing.Color.DimGray;
 			this.pnlMain.BackgroundImage = global::NerdDataSet.Properties.Resources.Nerd_Data_Set_Background;
 			this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.pnlMain.Controls.Add(this.cbxDataTables);
@@ -50,9 +50,11 @@
 			// 
 			// cbxDataTables
 			// 
+			this.cbxDataTables.BackColor = System.Drawing.Color.Black;
 			this.cbxDataTables.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.cbxDataTables.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cbxDataTables.Font = new System.Drawing.Font("Microsoft JhengHei", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cbxDataTables.ForeColor = System.Drawing.Color.White;
 			this.cbxDataTables.FormattingEnabled = true;
 			this.cbxDataTables.Location = new System.Drawing.Point(0, 43);
 			this.cbxDataTables.Name = "cbxDataTables";
@@ -65,7 +67,7 @@
 			this.dgvInformation.BackgroundColor = System.Drawing.Color.Black;
 			this.dgvInformation.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.dgvInformation.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.dgvInformation.GridColor = System.Drawing.SystemColors.ControlText;
+			this.dgvInformation.GridColor = System.Drawing.Color.Black;
 			this.dgvInformation.Location = new System.Drawing.Point(0, 68);
 			this.dgvInformation.Name = "dgvInformation";
 			this.dgvInformation.Size = new System.Drawing.Size(852, 501);
@@ -76,6 +78,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.SystemColors.Desktop;
 			this.ClientSize = new System.Drawing.Size(852, 569);
 			this.Controls.Add(this.dgvInformation);
 			this.Controls.Add(this.pnlMain);

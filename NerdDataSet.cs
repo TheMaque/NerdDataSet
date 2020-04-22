@@ -203,6 +203,12 @@ namespace NerdDataSet
 
 			cbxDataTables.SelectedIndex = 0;
 
+			dgvInformation.DefaultCellStyle.BackColor = Color.DarkGray;
+			dgvInformation.DefaultCellStyle.ForeColor = Color.Black;
+			dgvInformation.DefaultCellStyle.SelectionBackColor = Color.DimGray;
+			
+			
+
 			//LoadComboBox();
 		}
 		
@@ -224,14 +230,17 @@ namespace NerdDataSet
 			// Switch statement to switch Displays
 			switch (currentTable)
 			{
+				//Switch to Lego Sets Display
 				case "Star Wars Lego Sets":
 					LegoSetDisplay showLegoSet = new LegoSetDisplay(rowToDisplay);
 					showLegoSet.Show();
 					break;
+				// Switch to Marvel Characters Display
 				case "Marvel Characters":
 					MarvelCharactersDisplay showMarvelCharacters = new MarvelCharactersDisplay(rowToDisplay);
 					showMarvelCharacters.Show();
 					break;
+				// Switch to DC Characters Display
 				case "DC Characters":
 					DCCharactersDisplay showDCCharacters = new DCCharactersDisplay(rowToDisplay);
 					showDCCharacters.Show();
